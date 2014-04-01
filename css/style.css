@@ -1,0 +1,123 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+
+* {
+	background: white;
+}
+
+.row {
+	background: white;
+	color: green;
+}
+
+.header {
+	margin-top: 13%;
+	margin-bottom: 5%;
+}
+
+h5 {
+	font-size: 85%;
+	text-align: justify;
+	color: gray;
+}
+
+h6 {
+	font-size: 75%;
+	color: red;
+}
+
+span {
+	color: red;
+	font-size: 75%;
+}
+
+p {
+	text-align: center;
+	background-color: ##ffd700;
+	color: gray;
+}
+
+li {
+	font-size: 85%;
+	color: gray;
+}
+
+
+.twelve.columns.text-center.splash {
+	background-image: url("img/sedonatwo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+.twelve.columns.text-center.hotel img {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twelve.columns.text-center.directions img {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twelve.columns.text-center.ceremony img {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twelve.columns.logo {
+	height: 140px;
+}
+
+.twelve.columns.logo img {
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.four.columns.text-center.gifts img {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row.groomsmen, .row.bridesmaids {
+	margin-top: 5%;
+}
+
+.profilepic.robby,
+.profilepic.julie, 
+.profilepic.rachel, 
+.profilepic.christy, 
+.profilepic.annie, 
+.profilepic.steph, 
+.profilepic.emily, 
+.profilepic.michelle,
+.profilepic.mike, 
+.profilepic.chris, 
+.profilepic.dave, 
+.profilepic.david,  
+.profilepic.kyle {
+	-moz-border-radius:52px;
+ 	-webkit-border-radius:52px;
+ 	border-radius:52px;
+	width:100px;
+	height:100px;
+}
+
