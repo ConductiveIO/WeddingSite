@@ -7,9 +7,56 @@ However, this blank file is available if you prefer
 	background: white;
 }
 
+.attend {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.field {
+  position: relative; 
+}
+
+.foodopt {
+  width: 30%;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.foodopt > input[type=radio] {
+  display:none;
+}
+
+.foodopt > input[type=radio] + img {
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+.foodopt > input[type=radio]:checked + img {
+  border:2px solid #f00;
+}
+
+.foodopt2 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.foodopt2 > input[type=radio] {
+  display:none;
+}
+
+.foodopt2 > input[type=radio] + img {
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+.foodopt2 > input[type=radio]:checked + img {
+  border:2px solid #f00;
+}
+
 .row {
 	background: white;
-	color: green;
+	color: gray;
 }
 
 .header {
@@ -35,7 +82,6 @@ span {
 
 p {
 	text-align: center;
-	background-color: ##ffd700;
 	color: gray;
 }
 
@@ -121,3 +167,47 @@ li {
 	height:100px;
 }
 
+rsvp-button {
+    color: gray;
+    background-color: transparent;
+    font-size: 75%;
+}
+
+.ui-widget-overlay.custom-overlay {
+   background-color: #000 !important;
+   opacity: 0.5 !important;
+}
+
+.ui-dialog-titlebar {
+  visibility: hidden;
+}
+
+.dialog-form {
+  height: 500px;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+  height: 500px !important;
+  width: 350px !important;
+  bottom: 20px !important;
+}
+
+#dialog-form.ui-dialog-content.ui-widget-content {
+  height: 400px !important;
+  width: 340px !important;
+  background: white;
+}
+
+.ui-resizable-handle.ui-resizable-se.ui-icon.ui-icon-gripsmall-diagonal-se {
+  visibility: hidden;
+}
+
+li.attend {
+  font-size: 70%;
+}
+
+#close-dialog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
