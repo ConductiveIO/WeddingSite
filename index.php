@@ -613,7 +613,7 @@
   	<div class="row">
 
   		<div class="four columns text-center gifts">
-			<a href="http://www.honeyfund.com/wedding/julieandrobby"> <img src="img/honeyfundlogo.png"/></a>
+			<a href="http://www.amazon.com/registry/wedding/XLHG5QE5MOHU"> <img src="img/amazonlogo.png"/></a>
 		</div>
 		<div class="four columns text-center gifts">
 			<a href="http://www.crateandbarrel.com/Gift-Registry/Julie-Vera-and-Robby-Grodin/r4986628"><img src="img/crateandbarrellogo.png"/></a>
