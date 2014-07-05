@@ -65,6 +65,11 @@ $(function() {
   })
 
   $("#submit").on('click', function() {
+    
+    
+
+    var addressee = nodeRef.child('addressee').once('value', function(data) { return data;});
+
     nodeRef.update({guest1: $("#guest1").val(),
                     guest2: $("#guest2").val(),
                     attend: $("input[name=attend]:checked").val(),

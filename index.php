@@ -19,7 +19,9 @@
 	<meta name="author" content="Julie Vera">
 
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-
+  <style>
+    a { color: red !important; text-decoration: underline; }
+  </style>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   
   <!--Facebook Meta-->
@@ -198,7 +200,7 @@
   				<div class="twelve columns text-center">
   					<p><a href="#directions">DIRECTIONS</a></p>
   				</div>
-  			</div>
+  			</div>    
   		</div>
 
 
@@ -217,7 +219,25 @@
   				</div>
   			</div>
   		</div>
+        
+        
+        
+        <div class="row">
+                <div class="twelve columns text-center thingstodo">
+                    <a href="thingstodo.html"><img src="img/fun.svg"/></a>
+                </div>
+        </div>
+        
+        <div class="row">
+                <div class="twelve columns text-center">
+                    <p><a href="thingstodo.html">THINGS TO DO</a></p>
+                </div>
+        </div>
+        
+        
   	</div>
+
+
 
   	<div class="row">
 	    <div class="twelve columns text-center header">

@@ -85,6 +85,10 @@ p {
 	color: gray;
 }
 
+p.thingstodo {
+    text-align: left;
+}
+
 li {
 	font-size: 85%;
 	color: gray;
@@ -210,4 +214,21 @@ li.attend {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.twelve.columns.text-center.thingstodo img {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+twelve columns text-left header thingstodo {
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+#thingstodoinboston {
+    margin-bottom: -50px;
 }
