@@ -64,10 +64,18 @@ However, this blank file is available if you prefer
 	margin-bottom: 5%;
 }
 
+h4 {
+    background-color: transparent;
+}
+
 h5 {
 	font-size: 85%;
 	text-align: justify;
 	color: gray;
+}
+
+h3 {
+    font-size: 50%;
 }
 
 h6 {
@@ -95,12 +103,51 @@ li {
 }
 
 
-.twelve.columns.text-center.splash {
-	background-image: url("css_img/sedonatwo.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 600px;
+.two.columns.text-center.splash {
+    height: 550px;
+    background-color: whitesmoke;
+}
+
+.ten.columns.text-center.splash {
+    height: 550px;
+    background-color: purple;
+}
+
+.twelve.columns.text-center.thumb1 {
+    background-color:purple;
+    height: 125px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: url('/img/car.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.twelve.columns.text-center.thumb2{
+    background-color: orange;
+    height: 125px;
+    width:100%;
+    background-image: url('/img/sliderimg/img_0013.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.twelve.columns.text-center.thumb3{
+    background-color: green;
+    height: 125px;
+    width:100%;
+    background-image: url('/img/car.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.twelve.columns.text-center.thumb4{
+    background-color: blue;
+    height: 125px;
+    width:100%;
+    background-image: url('/img/car.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .twelve.columns.text-center.hotel img {
@@ -232,3 +279,40 @@ twelve columns text-left header thingstodo {
 #thingstodoinboston {
     margin-bottom: -50px;
 }
+
+<!-- Slider -->
+.slider-wrap {
+    height: 550px;
+}
+
+.owl-wrapper {
+    height: 550px;
+}
+
+.btn {
+    color: #FFF !important;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding-left: 10px !important;
+    padding-right: 10px !important;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+
+.btn:hover {
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+.owl-carousel img {
+    max-height: 550px;
+}
+
